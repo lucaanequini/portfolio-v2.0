@@ -37,15 +37,13 @@ import {
 export const Navbar = () => {
     const scrolled = useScrollTop()
     const language = useTranslator(lg => lg.language)
-    const minWidth = window.innerWidth > 1024
-
 
     const onLanguageChange = useTranslator((lg) => lg.onChange)
 
     return (
         <div className={cn(scrolled && "lg:flex lg:items-center lg:justify-center")}>
-            <div className={cn(scrolled && minWidth && `z-50 fixed top-5 w-[40%] py-4 bg-white rounded-full`)}>
-                <nav className={cn("flex justify-between items-center px-5 xl:px-32", scrolled && 'justify-center xl:px-0')}>
+            <div className={cn(scrolled && `lg:z-50 lg:fixed lg:top-5 lg:w-[40%] lg:py-4 lg:bg-white lg:rounded-full`)}>
+                <nav className={cn("flex justify-between items-center", scrolled && 'lg:justify-center xl:px-0')}>
                     <div className={cn("lg:w-[170px]", scrolled && 'hidden')}>
                         <div className={cn("flex items-center w-16 h-16 xl:w-20 xl:h-20", scrolled && 'lg:hidden')}>
                             <Image src='/logo.svg' alt='logo' layout="responsive" width={100} height={100} />

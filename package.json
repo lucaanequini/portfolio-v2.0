@@ -21,6 +21,7 @@
     "sonner": "^1.4.41",
     "tailwind-merge": "^2.3.0",
     "tailwindcss-animate": "^1.0.7",
+    "tech-stack-icons": "^2.0.3",
     "zustand": "^4.5.2"
   },
   "devDependencies": {
