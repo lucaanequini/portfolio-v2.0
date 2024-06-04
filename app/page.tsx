@@ -5,13 +5,13 @@ import { About } from "@/components/about";
 export default function Home() {
   return (
     <div>
-      <main className="w-full px-5 xl:px-40">
-        <div className="h-screen flex flex-col">
+      <main className="w-full">
+        <div className="h-screen flex flex-col" id="home">
           <Navbar />
           <TitleSection />
         </div>
         <About />
-      </main>
-    </div>
+      </main >
+    </div >
   );
 }
