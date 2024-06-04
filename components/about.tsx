@@ -3,14 +3,14 @@
 import Image from "next/image"
 import { useTranslator } from "@/hooks/use-translator"
 
-import { TechStack } from "./tech-stack"
+import { TechStack } from "./tech/tech-stack"
 
 export const About = () => {
     const language = useTranslator(lg => lg.language)
 
     return (
         <>
-            <div className="h-screen w-full py-5 px-5 flex flex-col xl:px-40 xl:gap-y-10" id='bio'>
+            <div className="h-auto w-full py-5 px-5 flex flex-col lg:px-40 lg:gap-y-10" id='bio'>
                 <p className="font-bold text-5xl text-blue">Bio</p>
                 <div className="flex flex-col gap-10 items-center justify-center pt-5 sm:flex-row xl:justify-between">
                     <div className="flex items-center w-60 h-60 sm:h-80 sm:w-80">

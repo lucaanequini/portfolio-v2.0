@@ -1,6 +1,7 @@
 import { Navbar } from "@/components/navbar";
 import { TitleSection } from "@/components/title-section";
 import { About } from "@/components/about";
+import { WorksSection } from "@/components/works/works-section";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
           <TitleSection />
         </div>
         <About />
+        <WorksSection />
       </main >
     </div >
   );
