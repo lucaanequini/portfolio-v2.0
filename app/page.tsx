@@ -15,7 +15,6 @@ export default function Home() {
           <TitleSection />
         </div>
         <About />
-        <TechStack />
         <WorksSection />
         <CertSection />
         <ContactSection />

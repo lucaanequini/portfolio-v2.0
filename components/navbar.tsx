@@ -42,7 +42,7 @@ export const Navbar = () => {
     if (!isMounted) return null
 
     return (
-        <div className={cn("z-[9999] w-full px-5 lg:px-20 xl:px-40 flex items-center justify-between fixed top-0", scrolled && `backdrop-blur-xl border-b border-blue`)}>
+        <div className={cn("z-10 w-full px-5 lg:px-20 xl:px-40 flex items-center justify-between fixed top-0", scrolled && `backdrop-blur-xl border-b border-blue`)}>
             <div className={cn("lg:w-[170px]")}>
                 <div className={cn("flex items-center w-16 h-16 xl:w-20 xl:h-20")}>
                     <Image src='/logo.svg' alt='logo' layout="responsive" width={100} height={100} />
@@ -58,7 +58,7 @@ export const Navbar = () => {
                 <a href='#works' className="border-b-2 border-transparent hover:border-b-2 hover:text-blue/70 hover:border-blue transition duration-300">
                     {language === 'en' ? 'Works' : 'Projetos'}
                 </a>
-                <a href='/' className="border-b-2 border-transparent hover:border-b-2 hover:text-blue/70 hover:border-blue transition duration-300">
+                <a href='#certs' className="border-b-2 border-transparent hover:border-b-2 hover:text-blue/70 hover:border-blue transition duration-300">
                     Certs
                 </a>
             </div>
@@ -94,9 +94,11 @@ export const Navbar = () => {
                         </DialogClose>
                     </DialogContent>
                 </Dialog>
-                <Button variant='blue'>
-                    {language === 'en' ? 'Contact' : 'Contato'}
-                </Button>
+                <a href='#contact'>
+                    <Button variant='blue'>
+                        {language === 'en' ? 'Contact' : 'Contato'}
+                    </Button>
+                </a>
             </div>
             <div className='lg:hidden'>
                 <MobileSidebar />

@@ -13,7 +13,7 @@ export const TechStack = () => {
     const language = useTranslator(lg => lg.language)
 
     return (
-        <div className="h-auto mb-20 sm:h-screen sm:mb-0 min-[1340px]:h-[90vh] justify-center items-center px-5 lg:px-20 xl:px-40 pt-10 sm:pt-0">
+        <div className="flex flex-col justify-center mt-20">
             <p className="font-bold text-3xl sm:text-5xl text-blue">Tech Stack</p>
             <div className="w-full flex flex-wrap items-center mt-10 justify-center gap-3">
                 {techIcons.map((icon, index) => (

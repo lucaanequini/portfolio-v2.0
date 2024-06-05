@@ -15,7 +15,7 @@ export const CertCard = ({ cert }: CertProps) => {
     const currentCert = certs[cert]
     return (
         <div className="flex flex-col gap-y-1 sm:mx-auto">
-            <div className="h-52 sm:w-[300px] flex flex-col justify-between p-5 rounded-xl bg-gradient-to-r from-[#0075FF] via-[#0019FF] to-[#0075FF] text-white">
+            <div className="h-52 sm:w-[280px] flex flex-col justify-between p-5 rounded-xl bg-gradient-to-r from-[#0075FF] via-[#0019FF] to-[#0075FF] text-white">
                 <p className="font-semibold">
                     {language === 'en' ? currentCert.titleEn : currentCert.titleBr}
                 </p>

@@ -10,7 +10,7 @@ export const About = () => {
 
     return (
         <>
-            <div className="h-screen justify-center w-full pb-5 px-5 flex flex-col lg:px-20 xl:px-40 lg:gap-y-10" id='bio'>
+            <div className="h-auto justify-center w-full px-5 flex flex-col lg:px-20 xl:px-40 lg:gap-y-10" id='bio'>
                 <p className="font-bold text-3xl sm:text-5xl text-blue">Bio</p>
                 <div className="flex flex-col gap-10 items-center justify-center pt-5 sm:flex-row xl:justify-between">
                     <div className="flex items-center w-60 h-60 sm:h-80 sm:w-80">
@@ -47,6 +47,9 @@ export const About = () => {
                             }
                         </p>
                     </div>
+                </div>
+                <div className="mt-14 sm:mt-0">
+                    <TechStack />
                 </div>
             </div >
         </>
