@@ -52,7 +52,7 @@ export const MobileSidebar = () => {
                     >
                         Bio
                     </a>
-                    <a href='/'
+                    <a href='#works'
                         onClick={closeSheet}
                         className="border-b-2 border-transparent hover:border-b-2 hover:text-blue/70 hover:border-blue transition duration-300"
                     >

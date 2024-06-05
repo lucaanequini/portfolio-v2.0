@@ -18,11 +18,15 @@ const config = {
       },
     },
     extend: {
+      backgorundImage: {
+        'gradient-linear': 'linear-gradient(to right, #0075FF, #0019FF, #0075FF)',
+      },
       colors: {
         'blue': '#0019ff',
         'bg-gray': '#202020',
         'light-blue': '#C8F0EE',
         'gray': '#6c6c6c',
+        'linear-blue': 'bg-gradient-to-r from-[#0075FF] via-[#0019FF] to-[#0075FF]',
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

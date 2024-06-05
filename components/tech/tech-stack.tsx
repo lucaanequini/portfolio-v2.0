@@ -12,15 +12,14 @@ const techIcons: Icons[] = ['html', 'css', 'javascript', 'typescript', 'react', 
 export const TechStack = () => {
     const language = useTranslator(lg => lg.language)
 
-    const [color, setColor] = useState('#202020')
-
     return (
-        <div className="mt-10">
-            <p className="font-bold text-5xl text-blue">Tech Stack</p>
+        <div className="h-auto mb-20 sm:h-screen sm:mb-0 min-[1340px]:h-[90vh] justify-center items-center px-5 lg:px-20 xl:px-40 pt-10 sm:pt-0">
+            <p className="font-bold text-3xl sm:text-5xl text-blue">Tech Stack</p>
             <div className="w-full flex flex-wrap items-center mt-10 justify-center gap-3">
-                {techIcons.map((icon) => (
+                {techIcons.map((icon, index) => (
                     <TechIcon
                         icon={icon}
+                        key={index}
                         color="#202020"
                     />
                 ))}
