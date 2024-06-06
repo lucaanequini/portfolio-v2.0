@@ -29,5 +29,23 @@ export const works: ProjectType = {
         link: null,
         github: 'https://github.com/lucaanequini/onebitflix-backend/blob/main/package.json',
         imgUrl: '/onebitflix.png'
-    }
+    },
+    onebitx: {
+        title: 'OneBitX: SpaceX Clone',
+        descriptionEn: 'SpaceX landings pages clone, with all informations about the launches, rockets and capsules.',
+        descriptionBr: 'Clone das páginas de pousos da SpaceX, com todas as informações sobre os lançamentos, foguetes e cápsulas.',
+        techStack: ['HTML', 'SASS'],
+        link: null,
+        github: 'https://github.com/lucaanequini/OneBitX',
+        imgUrl: '/onebitx.png'
+    },
+    todoList: {
+        title: 'Todo List',
+        descriptionEn: 'Simple todo list, where you can add, remove and mark as done the tasks.',
+        descriptionBr: 'Lista de tarefas simples, onde você pode adicionar, remover e marcar como feitas as tarefas.',
+        techStack: ['EJS', 'MongoDB', 'CSS'],
+        link: null,
+        github: 'https://github.com/lucaanequini/to-do-list',
+        imgUrl: '/todo.png'
+    },
 }

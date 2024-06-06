@@ -31,7 +31,7 @@ export const MobileSidebar = () => {
     return (
         <div className="z-[999999]">
             <Sheet open={isOpen} onOpenChange={setIsOpen}>
-                <SheetTrigger>
+                <SheetTrigger asChild>
                     <Button variant='blue'><Menu className="h-6 w-6" /></Button>
                 </SheetTrigger>
                 <SheetContent className="w-full">

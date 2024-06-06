@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.card:hover .image {
+  @apply flex;
+}
+
 ::-webkit-scrollbar {
   width: 7px;
 }

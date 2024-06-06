@@ -48,7 +48,7 @@ export const Forms = () => {
     }
 
     return (
-        <div>
+        <div data-aos='fade-left'>
             <form onSubmit={sendEmail} className="flex flex-col gap-y-3">
                 <Input
                     className="border-blue rounded-xl active:border-blue"
