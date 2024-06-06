@@ -42,7 +42,7 @@ export const About = () => {
                                 </>
                                 :
                                 <>
-                                    Em minha graduação já estudei algumas linguagens de programação, como: <span className="text-blue font-bold">Python, C e Java</span>. Eu também estou procurando por <span className="text-blue font-bold">novas oportunidades</span> para melhorar minhas habilidades e contribuir para projetos inovadores. Se você gostou do que viu aqui e tem uma oportunidade, por favor <span className="text-blue font-bold">entre em contato</span>.'
+                                    Em minha graduação já estudei algumas linguagens de programação, como: <span className="text-blue font-bold">Python, C e Java</span>. Eu também estou procurando por <span className="text-blue font-bold">novas oportunidades</span> para melhorar minhas habilidades e contribuir para projetos inovadores. Se você gostou do que viu aqui e tem uma oportunidade, por favor <span className="text-blue font-bold">entre em contato</span>.
                                 </>
                             }
                         </p>
