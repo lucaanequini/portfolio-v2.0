@@ -39,13 +39,13 @@ export const works: ProjectType = {
         github: 'https://github.com/lucaanequini/OneBitX',
         imgUrl: '/onebitx.png'
     },
-    todoList: {
-        title: 'Todo List',
-        descriptionEn: 'Simple todo list, where you can add, remove and mark as done the tasks.',
-        descriptionBr: 'Lista de tarefas simples, onde você pode adicionar, remover e marcar como feitas as tarefas.',
-        techStack: ['EJS', 'MongoDB', 'CSS'],
-        link: null,
-        github: 'https://github.com/lucaanequini/to-do-list',
-        imgUrl: '/todo.png'
+    weather: {
+        title: 'Live Weather: Weather App',
+        descriptionEn: 'Weather app, where you can see the current weather for your location or search for a city and also you can see some breaking weather news.',
+        descriptionBr: 'Aplicativo de clima, onde você pode ver o clima atual para sua localização ou pesquisar por uma cidade e também pode ver algumas notícias sobre clima.',
+        techStack: ['TypeScript', 'React', 'REST APIs', 'Tailwind CSS'],
+        link: 'https://live-weather-project.vercel.app/',
+        github: 'https://github.com/lucaanequini/live-weather',
+        imgUrl: '/live-weather.png'
     },
 }

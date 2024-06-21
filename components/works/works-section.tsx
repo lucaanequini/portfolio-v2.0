@@ -14,10 +14,10 @@ import { ArrowRight } from "lucide-react"
 
 
 const projects = [
+    'weather',
     'jotion',
     'onebitflix',
     'onebitx',
-    'todoList',
 ]
 
 
