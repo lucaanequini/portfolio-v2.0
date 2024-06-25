@@ -9,7 +9,7 @@ import { useState, useEffect } from "react"
 
 import { cn } from "@/lib/utils"
 
-import { Settings, Globe } from "lucide-react"
+import { Settings } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
 
@@ -27,6 +27,7 @@ import {
 } from "@/components/ui/dialog"
 
 import { DialogPortal } from "@radix-ui/react-dialog"
+import { TranslateModal } from "./modals/translate-modal"
 
 
 export const Navbar = () => {
@@ -36,6 +37,8 @@ export const Navbar = () => {
     const language = useTranslator(lg => lg.language)
 
     const onLanguageChange = useTranslator((lg) => lg.onChange)
+
+    const [open, setOpen] = useState(false)
 
     useEffect(() => {
         setIsMounted(true)
@@ -68,40 +71,10 @@ export const Navbar = () => {
                 </a>
             </div>
             <div className="hidden lg:flex gap-x-5 items-center">
-
-                <Dialog>
-                    <DialogPortal>
-                        <DialogTrigger asChild>
-                            <Button variant='blue'>
-                                <Settings className="h-6 w-6" />
-                            </Button>
-                        </DialogTrigger>
-                        <DialogContent className="w-72 flex flex-col gap-y-7">
-                            <DialogHeader>
-                                <DialogTitle>
-                                    {language === 'en' ? 'Settings' : 'Preferências'}
-                                </DialogTitle>
-                            </DialogHeader>
-                            <DialogDescription asChild>
-                                <div className="flex items-center gap-x-2">
-                                    <p className="text-black">
-                                        {language === 'en' ? 'Language' : 'Idioma'}:
-                                    </p>
-                                    <Button
-                                        size='sm'
-                                        onClick={() => onLanguageChange(language)}
-                                        className="flex gap-x-2" variant='ghostBlue'
-                                    >
-                                        {language === 'en' ? 'English' : 'Português'}<Globe className="h-4 w-4" />
-                                    </Button>
-                                </div>
-                            </DialogDescription>
-                            <DialogClose asChild>
-                                <Button variant='blue' size='sm'>Close</Button>
-                            </DialogClose>
-                        </DialogContent>
-                    </DialogPortal>
-                </Dialog>
+                <TranslateModal isOpen={open} onClose={() => setOpen(false)} />
+                <Button variant='blue' onClick={() => setOpen(true)}>
+                    <Settings />
+                </Button>
                 <a href='#contact'>
                     <Button variant='blue'>
                         {language === 'en' ? 'Contact' : 'Contato'}
