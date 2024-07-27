@@ -12,6 +12,24 @@ interface ProjectType {
 
 
 export const works: ProjectType = {
+    ecommerceStore: {
+        title: 'Ecommerce Store: Online Store',
+        descriptionEn: 'Online store, where you can see the products, add them to the cart, remove, choose size and buy it.',
+        descriptionBr: 'Loja online, onde você pode ver os produtos, adicioná-los ao carrinho, remover, escolher o tamanho e comprá-lo.',
+        techStack: ['TypeScript', 'React', 'Stripe', 'NextJS', 'RestAPI', 'Tailwind CSS',],
+        link: 'https://ecommerce-store-gamma-eight.vercel.app/',
+        github: 'https://github.com/lucaanequini/ecommerce-store',
+        imgUrl: '/ecommerce-store.png'
+    },
+    ecommerceAdmin: {
+        title: 'Ecommerce Admin: Admin Panel',
+        descriptionEn: 'Admin panel, where you can manage everything about the products, see the orders and have an overview about your sales.',
+        descriptionBr: 'Painel de administração, onde você pode gerenciar tudo sobre os produtos, ver os pedidos e visualizar um resumo de suas vendas.',
+        techStack: ['TypeScript', 'React', 'NextJS', 'Prisma', 'PostgreSQL', 'Tailwind CSS'],
+        link: 'https://ecommerce-admin-gamma-eight.vercel.app/',
+        github: 'https://ecommerce-admin-six-lac.vercel.app/',
+        imgUrl: '/ecommerce-admin.png'
+    },
     jotion: {
         title: 'Jotion: Notion Clone',
         descriptionEn: 'Notion clone, with all the features! You can create a new note, introduce images, different types of text and even share them with your friends!',
