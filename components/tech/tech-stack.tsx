@@ -7,7 +7,7 @@ import { useState } from "react"
 import { useTranslator } from "@/hooks/use-translator"
 
 
-const techIcons: Icons[] = ['html', 'css', 'javascript', 'typescript', 'react', 'tailwind', 'next', 'node', 'java', 'springboot', 'postgres']
+const techIcons: Icons[] = ['javascript', 'typescript', 'dotnet', 'react', 'blazor', 'tailwind', 'next', 'node', 'java', 'postgres']
 
 export const TechStack = () => {
     const language = useTranslator(lg => lg.language)
@@ -34,14 +34,17 @@ export const TechStack = () => {
                             <br /><br />
                             On back-end I have been studyng <span className="text-blue font-bold">Java</span> with <span className="text-blue font-bold">Springboot</span>, but I have strongs skills with <span className="text-blue font-bold">NodeJS</span>, along with <span className="text-blue font-bold">SQL (MySQL and PostgreSQL)</span> or <span className="text-blue font-bold">NoSQL (MongoDB)</span> databases.
                             Some other allies in my daily life are: <span className="text-blue font-bold">NextJS</span> for building these applications and <span className="text-blue font-bold">Git and GitHub</span> for versioning.
+                            In addition, I have experience with <span className="text-blue font-bold">Blazor</span> and <span className="text-blue font-bold">.NET</span>, which enhance my expertise in full-stack development.
                         </>
                         :
                         <>
-                            Minha tech stack é uma combinação ampla de tecnologias de <span className="text-blue font-bold">desenvolvimento web</span>. No front-end domino <span className="text-blue font-bold">HTML, CSS e SASS</span>.
+                            Minha tech stack é uma combinação ampla de tecnologias de <span className="text-blue font-bold">desenvolvimento web</span>. <br /><br />No front-end domino <span className="text-blue font-bold">HTML, CSS e SASS</span>.
                             Também tenho utilizado bastante <span className="text-blue font-bold">Bootstrap e Tailwind CSS</span> que me permitem criar interfaces atrantes e responsivas. Tenho grande familiaridade com <span className="text-blue font-bold">JavaScript e TypeScript</span>,
-                            assim como com React para deixar as aplicações mais interativas. No back-end venho estudando <span className="text-blue font-bold">Java</span> com <span className="text-blue font-bold">Springboot</span>, mas tenho forte habilidade com <span className="text-blue font-bold">NodeJS</span>, juntamente com
+                            assim como com React para deixar as aplicações mais interativas.
+                            <br /><br />
+                            No back-end venho estudando <span className="text-blue font-bold">Java</span> com <span className="text-blue font-bold">Springboot</span>, mas tenho forte habilidade com <span className="text-blue font-bold">NodeJS</span>, juntamente com
                             banco de dados <span className="text-blue font-bold">SQL (PostgreSQL e MySQL)</span> ou <span className="text-blue font-bold">NoSQL (MongoDB)</span>. Alguns outros aliados em meu dia a dia são: <span className="text-blue font-bold">NextJS</span> para a construção dessas aplicações e <span className="text-blue font-bold">Git e GitHub</span> para versionamento.
-
+                            Além disso, tenho experiência com <span className="text-blue font-bold">Blazor</span> e <span className="text-blue font-bold">.NET</span>, que complementam minha atuação no desenvolvimento fullstack.
                         </>
                     }
                 </p>

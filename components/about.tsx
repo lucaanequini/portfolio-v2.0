@@ -27,22 +27,22 @@ export const About = () => {
                         <p className="text-justify">
                             {language === 'en' ?
                                 <>
-                                    Hello, my name is <span className="text-blue font-bold">Luca Anequini Antoniazzi</span>, i&apos;m <span className="text-blue font-bold">19</span> years old, I&apos;m from São Paulo, SP, Brazil and currently I&apos;m studying <span className="text-blue font-bold">Computer Science</span> at FEI. I have about 6 months of experience in <span className="text-blue font-bold">FullStack JavaScript</span> development with freelances and personal projects.
+                                    Hello, my name is <span className="text-blue font-bold">Luca Anequini Antoniazzi</span>, i&apos;m <span className="text-blue font-bold">19</span> years old, I&apos;m from São Paulo, SP, Brazil. I&apos;m studying <span className="text-blue font-bold">Computer Science</span> at FEI Iand always looking to improve my skills, especially in <span className="text-blue font-bold">software development</span>. Right now, I&apos;m an intern at <span className="text-blue font-bold">Robotec Solutions</span>, where I work on full-stack development using Blazor, .NET, APIs, and Distributed Systems.
                                 </>
                                 :
                                 <>
-                                    Olá, me chamo <span className="text-blue font-bold">Luca Anequini Antoniazzi</span>, tenho <span className="text-blue font-bold">19</span> anos e sou natural de São Paulo, SP, Brasil e atualmente estou estudando <span className="text-blue font-bold">Ciência da Computação</span> na FEI. Tenho cerca de 6 meses de experiência com desenvolvimento <span className="text-blue font-bold">FullStack JavaScript</span> que adquiri por meio de freelances e projetos pessoais.
+                                    Olá, me chamo <span className="text-blue font-bold">Luca Anequini Antoniazzi</span>, tenho <span className="text-blue font-bold">19</span> anos e sou natural de São Paulo, SP, Brasil. Atualmente, estou cursando <span className="text-blue font-bold">Ciência da Computação</span> na FEI e sempre em busca de aprimorar meus conhecimentos principalmente na área de desenvolvimento de software, para isso estou atuando como estagiário na <span className="text-blue font-bold">Robotec Solutions</span>, onde atuo no desenvolvimento fullstack com foco em Blazor, .NET, APIs e Sistema Distribuídos.
                                 </>
                             }
                         </p>
                         <p className="text-justify">
                             {language === 'en' ?
                                 <>
-                                    In my graduation I already studied some program languages, such as:  <span className="text-blue font-bold">Python, C and Java</span>. I&apos;m also seeking <span className="text-blue font-bold">new opportunities</span> to expand my skills and contribute to innovative projects. If you like my job and have an opportunity, please feel free to <span className="text-blue font-bold">contact me</span>.
+                                    In my graduation and through courses, I've learned several program languages, like <span className="text-blue font-bold">Python, TypeScript (React and NodeJS), C and Java</span>, which I fell comfortable working with them. I&apos;m always looking for <span className="text-blue font-bold">new challenges</span> to grow and contribute to exciting projects. If you&apos;re interested on my work, please feel free to <span className="text-blue font-bold">contact me</span>.
                                 </>
                                 :
                                 <>
-                                    Em minha graduação já estudei algumas linguagens de programação, como: <span className="text-blue font-bold">Python, C e Java</span>. Eu também estou procurando por <span className="text-blue font-bold">novas oportunidades</span> para melhorar minhas habilidades e contribuir para projetos inovadores. Se você gostou do que viu aqui e tem uma oportunidade, por favor <span className="text-blue font-bold">entre em contato</span>.
+                                    Durante minha graduação e através de cursos já estudei algumas outras linguagens de programação, que também tenho grande domnínio como: <span className="text-blue font-bold">Python, TypeScript (React e NodeJS), C e Java</span>. Estou sempre a procura de <span className="text-blue font-bold">novos desafios</span> para melhorar minhas habilidades e contribuir para projetos inovadores. Se você gostou do que viu aqui e se interessa em meu trabalho, por favor <span className="text-blue font-bold">entre em contato</span>.
                                 </>
                             }
                         </p>

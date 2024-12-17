@@ -5,7 +5,7 @@ interface ProjectType {
         descriptionBr: string
         techStack: string[]
         link: string | null
-        github: string
+        github: string | null
         imgUrl: string
     }
 }
@@ -66,4 +66,13 @@ export const works: ProjectType = {
         github: 'https://github.com/lucaanequini/live-weather',
         imgUrl: '/live-weather.png'
     },
+    smartprop: {
+        title: 'SmartProp: Real Trade Market Platform',
+        descriptionEn: 'An intuitive platform for managing trading market plans, allowing clients to purchase plans and set their start dates, with optimized features to track the progress and performance of each plan',
+        descriptionBr: 'Plataforma intuitiva para gerenciamento de planos de trade, permitindo que os clientes adquiram planos e definam a data de início conforme sua conveniência, com funcionalidades otimizadas para acompanhar o progresso e desempenho de cada plano contratado.',
+        techStack: ['TypeScript', 'React', 'NextJS', 'Python', 'PostgreSQL', 'Tailwind CSS', 'Mercado Pago'],
+        link: 'https://mesasmartprop.com.br/',
+        github: null,
+        imgUrl: '/smartprop.png'
+    }
 }

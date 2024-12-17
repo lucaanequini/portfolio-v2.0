@@ -14,12 +14,13 @@ import { ArrowRight } from "lucide-react"
 
 
 const projects = [
+    'smartprop',
     'ecommerceStore',
     'ecommerceAdmin',
     'weather',
     'jotion',
     'onebitflix',
-    'onebitx',
+    'onebitx'
 ]
 
 

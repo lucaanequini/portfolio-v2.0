@@ -40,12 +40,14 @@ export const WorkCard = ({ work }: WorkCardProps) => {
                             </Button>
                         </Link>
                     )}
-                    <Link href={currentWork.github} target='_blank'>
-                        <Button variant='blue' className='flex gap-x-2'>
-                            GitHub
-                            <GitHubLogoIcon className='h-4 w-4' />
-                        </Button>
-                    </Link>
+                    {currentWork.github && (
+                        <Link href={currentWork.github} target='_blank'>
+                            <Button variant='blue' className='flex gap-x-2'>
+                                GitHub
+                                <GitHubLogoIcon className='h-4 w-4' />
+                            </Button>
+                        </Link>
+                    )}
                 </div>
             </div>
             <div className='flex items-end justify-end py-3'>
