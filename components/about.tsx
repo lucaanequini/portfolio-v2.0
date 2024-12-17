@@ -38,7 +38,7 @@ export const About = () => {
                         <p className="text-justify">
                             {language === 'en' ?
                                 <>
-                                    In my graduation and through courses, I've learned several program languages, like <span className="text-blue font-bold">Python, TypeScript (React and NodeJS), C and Java</span>, which I fell comfortable working with them. I&apos;m always looking for <span className="text-blue font-bold">new challenges</span> to grow and contribute to exciting projects. If you&apos;re interested on my work, please feel free to <span className="text-blue font-bold">contact me</span>.
+                                    In my graduation and through courses, I&pos;ve learned several program languages, like <span className="text-blue font-bold">Python, TypeScript (React and NodeJS), C and Java</span>, which I fell comfortable working with them. I&apos;m always looking for <span className="text-blue font-bold">new challenges</span> to grow and contribute to exciting projects. If you&apos;re interested on my work, please feel free to <span className="text-blue font-bold">contact me</span>.
                                 </>
                                 :
                                 <>
